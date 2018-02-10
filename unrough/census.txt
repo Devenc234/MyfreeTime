@@ -1,0 +1,15 @@
+          Census Data
+
+Name   age          height
+      (years)     feet  inches
+
+Bill    18          5     11
+Mary    23          5     3
+Jill    45          4     11
+Sam	34          5     9
+Joe	41          6     1
+Phil    32          6     3
+Kim	39          5     6
+Vince   29          5     7
+Chuck   68          5     10
+Harvey  55          6     0

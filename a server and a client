@@ -1,0 +1,95 @@
+Hello,
+
+Below is the assignment, please use C++ for this and talk to me before you take it. please.
+
+For this assignment, you will design and implement an online address book application using network sockets.  You will write both the client and server portions of this application.  The client and server processes will communicate using TCP sockets and will implement the protocol discussed below.
+
+The Assignment 1
+
+You will write two programs, a server and a client. The server creates a socket in the Internet domain bound to port SERVER_PORT (a constant you should define in both programs, you may use last 4 digits of your UM-ID). The server receives requests through this socket, acts on those requests, and returns the results to the requester. The client will also create a socket in the Internet domain, send requests to the SERVER_PORT of a computer specified on the command-line, and receive responses through this socket from a server.
+
+For this assignment, you just need to allow one active client connect to the server.   In the next assignment, you should allow multiple clients connect the server at the same time.
+
+
+
+Your client and server should operate as follows. Your server begins execution by opening a file that you have created and that contains the address book (initially empty).  Each record in the address book will have four fields, Record ID (4 digits), First Name (up to 8 characters), Last Name (up to 8 characters), Phone Number (12 characters). Your server should read these records into a server-internal data structure and keep track of the number of records. You may assume that you will never have to store more than some fixed number, say 20, records. Once the server has initialized its data structures, it should wait for the connection requests from the clients.
+
+Your client operates by sending an ADD, DELETE, LIST, SHUDOWN, QUIT commands to the server. You should create a client that is able to send any of the five commands above, and allows a user to specify which of the commands the client should send to the server.
+
+The details of the protocol depend on the command the client sends to the server.
+
+ADD
+
+Add a name and number record to the address book.  A client sends the ASCII string “ADD" followed by a space, followed by a First Name, followed by a space, followed by a Last Name, followed by a space, followed by a Phone Number, and followed by the newline character (i.e., '\n').
+
+When the server receives an ADD command from a client, it will add a new record in the address book and return the “200 OK” message.
+
+A client-server interaction with the ADD command thus looks like:
+
+
+
+c: ADD Jinhua Guo 313-583-6439
+
+s: 200 OK
+
+The new Record ID is 1001
+
+DELETE
+
+Delete a record from the address book. A client that sends the ASCII string "DELETE", followed by a space, followed by a Record ID, followed by the newline character (i.e., '\n'). The client should then wait for the server to return a "200 OK" message (indicating that the record is successfully deleted), or a "403 The Record ID does not exist."
+
+A client-server interaction with the DELETE command thus looks like:
+
+c: DELETE 1001
+s: 200 OK
+
+LIST
+
+List all records in the address book.
+
+A client-server interaction with the LIST command looks like:
+
+
+
+c: LIST
+
+s: 200 OK
+
+The list of records in the book:
+
+1001            Jinhua Guo             313-583-6439
+
+1002            John Smith             313-583-1234
+
+1003            Mary Miller              313-594-4567
+
+
+SHUTDOWN
+
+The SHUTDOWN command, which is sent from the client to the server, is a single line message that allows a user to shutdown the server.  A user that wants to shutdown the server should send the ASCII string "SHUTDOWN" followed by the newline character (i.e., '\n').
+
+Upon receiving the SHUTDOWN command, the server should return the string "200 OK" (terminated with a newline), close all open sockets and files, and then terminate.
+
+A client-server interaction with the SHUTDOWN command looks like:
+
+c: SHUTDOWN
+s: 200 OK
+
+QUIT
+
+Terminate only the client.   The client exits when it receives the confirmation message from the server.
+
+
+
+A client-server interaction with the QUIT command looks like:
+
+
+
+c: QUIT
+
+s: 200 OK
+
+
+Note, “300 invalid command” or “301 message format error” should be returned to the client, if a server receives an invalid command or the command in the wrong format.
+
+u take this assignment. Attaching

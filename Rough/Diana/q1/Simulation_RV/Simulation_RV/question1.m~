@@ -1,0 +1,7 @@
+clear all;
+clc
+
+T=100;
+simulateRVs(T);
+
+T = 1000

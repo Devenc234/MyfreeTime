@@ -1,0 +1,12 @@
+
+=squid:S1148"#Use a logger to log this exception.(‰œ‰Õúÿÿÿÿ
+‚squid:S1488"hImmediately return this expression instead of assigning it to the temporary variable "courseListObject".(Â›ºñıÿÿÿÿ
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(ø¿âÿÿÿÿÿ
+8squid:S1148"#Use a logger to log this exception.(şìÓ’
+<squid:S1905"'Remove this unnecessary cast to "Node".(•é°µ
+_squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(§âğ'
+L
+squid:S106"9Replace this use of System.out or System.err by a logger.(«Ã¥
+Osquid:S1118":Add a private constructor to hide the implicit public one.(öªÖ„
+=squid:S1148"#Use a logger to log this exception.(Âşÿâûÿÿÿÿ

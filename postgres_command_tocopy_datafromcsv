@@ -1,0 +1,4 @@
+copy master(id,last_name,first_name,middle_name,suffix,dob,gender,ssn,address1,address2,zip_code,mothers_maiden_name,mrn,city,state,phoneno,phoneno2,email,alias,created_tstamp,last_updated_tstamp,deleted_tstamp,
+created_by_id,last_updated_by_id )from '/home/zemoso/Desktop/finalresult.csv' delimiter ',' csv header;
+
+

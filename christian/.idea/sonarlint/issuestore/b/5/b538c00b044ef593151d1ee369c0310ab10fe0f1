@@ -1,0 +1,15 @@
+
+zsquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ËËÆùúÿÿÿÿ8–Õ‹æ‚,
+msquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ó€€}8–Õ‹æ‚,
+Ksquid:S1066"/Merge this if statement with the enclosing one.(úŒ·Ø8–Õ‹æ‚,
+esquid:UselessImportCheck"=Remove this unused import 'java.util.InputMismatchException'.(İ§18èàŒæ‚,
+Ysquid:S1197"8Move the array designator from the variable to the type.(Åü¤øÿÿÿÿ8–Õ‹æ‚,
+\squid:UselessImportCheck".Remove this unused import 'java.util.Scanner'.(ÒÜÅ¸úÿÿÿÿ8èàŒæ‚,
+Psquid:S1066"/Merge this if statement with the enclosing one.(½‘µúÿÿÿÿ8–Õ‹æ‚,
+Tsquid:S1197"8Move the array designator from the variable to the type.(«¥¡á8–Õ‹æ‚,
+zsquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(æóÛÙıÿÿÿÿ8–Õ‹æ‚,
+wsquid:S00116"ZRename this field "number_of_nodes" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(•÷öŞ8–Õ‹æ‚,
+ssquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(†ôæ¹ÿÿÿÿÿ8–Õ‹æ‚,
+jsquid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(… ¿Ì8çÊæ‚,
+Ysquid:S1197"8Move the array designator from the variable to the type.(†ôæ¹ÿÿÿÿÿ8–Õ‹æ‚,
+psquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(†ôæ¹ÿÿÿÿÿ8–Õ‹æ‚,

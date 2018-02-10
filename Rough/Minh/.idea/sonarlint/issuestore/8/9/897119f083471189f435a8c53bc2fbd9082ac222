@@ -1,0 +1,15 @@
+
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(îò§€øÿÿÿÿ
+Tsquid:S1854":Remove this useless assignment to local variable "mapper".(ĞÏáúÿÿÿÿ
+Esquid:S1481"+Remove this unused "mapper" local variable.(ĞÏáúÿÿÿÿ
+csquid:MaximumInheritanceDepth"<This class has 6 parents which is greater than 5 authorized.(ôìÉÛ
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(îò§€øÿÿÿÿ
+=squid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+=squid:S1948"(Make "myList" transient or serializable.(‘ÂËƒ
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(øòº¶ûÿÿÿÿ
+Zsquid:HiddenFieldCheck":Rename "myList" which hides the field declared at line 24.(×»¢û
+Zsquid:HiddenFieldCheck":Rename "myList" which hides the field declared at line 24.(×»¢û
+=squid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ

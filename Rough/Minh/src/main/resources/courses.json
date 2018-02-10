@@ -1,0 +1,22 @@
+{
+  "courses" : [
+    {
+      "name" : "CENT 110",
+      "instructor" : "V Takebayashi",
+      "crn" : 24310,
+      "credits" : 3.0
+    },
+    {
+      "name" : "CENT 132",
+      "instructor" : "B Ramos",
+      "crn" : 24322,
+      "credits" : 4.0
+    },
+    {
+      "name" : "CENT 140",
+      "instructor" : "S Dunan",
+      "crn" : 23004,
+      "credits" : 4.0
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+<courses>
+    <course>
+        <name>CENT 110</name>
+        <instructor>V Takebayashi</instructor>
+        <crn>24310</crn>
+        <credits>3.0</credits>
+    </course>
+    <course>
+        <name>CENT 132</name>
+        <instructor>B Ramos</instructor>
+        <crn>24322</crn>
+        <credits>4.0</credits>
+    </course>
+    <course>
+        <name>CENT 140</name>
+        <instructor>S Dunan</instructor>
+        <crn>23004</crn>
+        <credits>4.0</credits>
+    </course>
+</courses>

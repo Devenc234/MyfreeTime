@@ -1,0 +1,27 @@
+
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ƒÚÂøûÿÿÿÿ8®¼–æ‚,
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(Å˜õçüÿÿÿÿ8ô—îâ‚,
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(¸¾ëû8¼÷â‚,
+ssquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ñêü§þÿÿÿÿ8¼÷â‚,
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(„æ ½8æ°²æ‚,
+Jsquid:S1481")Remove this unused "Time" local variable.(ñêü§þÿÿÿÿ8®¼–æ‚,
+ssquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ô˜™Ëüÿÿÿÿ8¼÷â‚,
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(ãµÖ®8µÕ§æ‚,
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(‡¾ðû8¼÷â‚,
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(òºÕÞþÿÿÿÿ8ô—îâ‚,
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(©âñ 8¼÷â‚,
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(©âñ 8¼÷â‚,
+fsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ŸëÎy8‹ì•æ‚,
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(Å˜õçüÿÿÿÿ8ú¢¦æ‚,
+Ysquid:S1854"8Remove this useless assignment to local variable "Time".(ñêü§þÿÿÿÿ8®¼–æ‚,
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(¤ì®‘þÿÿÿÿ8µÕ§æ‚,
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(µ›ìã8ô—îâ‚,

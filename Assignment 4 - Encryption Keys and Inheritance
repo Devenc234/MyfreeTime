@@ -1,0 +1,54 @@
+Assignment 4 - Encryption Keys and Inheritance
+
+Everyone does Option A.  Option B is only done along with and after completing Option A for 4 points extra credit.  Option B gets no points if Option A is not working reasonably well.  Make sure you have read and understood
+
+both modules A and B this week, and
+module 2R - Lab Homework Requirements
+before submitting this assignment.
+
+File Structure:  I prefer one file for the entire program, so the non-Foothill classes should be non-public. (For Option B, you would have two Foothill main()s, in the same file, which is fine - you can comment one out.)  You are welcome to organize your code in multiple files, but in that case append them all into a single .txt with your original files clearly delimited with horizontal lines and labels.
+
+OPTION A:  InternetUser, Communicator and Two Helper Classes
+Understand the Classes and Problem
+Every internet user -- perhaps better thought of as an Internet connection -- has certain data associated with him/her/it.  We will oversimplify this by symbolizing such data with only two fields:  a name ("Aristotle") and a globally accessible IP address ("139.12.85.191").  We could enhance these by adding other -- sometimes optional, sometimes needed --  data (such as a MAC address, port, local IP address, gateway, etc), but we keep things simple and use only these two for the assignment -- any more would not satisfy spec. Also, name is not technically a true datum for this emulation, but we use it to signify the the English description of an individual or process that is interacting with the Internet.
+
+Most internet users, however, need more -- they want to communicate securely with other internet users.  For example, Bob (bob, "139.12.85.191") might want to order something from Amazon (amazon, "54.239.26.128"), a transaction that requires Bob to transmit a credit card number to Amazon over the Internet.  Today, this is done using a two-key (public key + private key) system called an RSA cryptosystem.  You don't see it, but it's always there.  Such a special internet user could be called a communicator.  To use RSA encryption, every internet user would need a pair of keys, the public-private key pair, above and beyond their basic name/ip address data.  Everyone gets to see everyone else's public key, but the private key  is only known to the one user:  Bob's connection knows his  private key, and Amazon's connection knows its private key.  But Bob will know Amazon's public key and Amazon will know Bob's public key.
+
+We will not be encrypting actual messages this week, but perhaps we will do so in a later assignment.  For those of you interested in a more complete explanation of RSA encyption, you can start here:
+
+Wikipedia page for RSA (cryptosystem) (链接到外部网站。)链接到外部网站。
+
+Using OOP vocabulary and tools, a communicator would then consist of a normal internet user plus at least one other item:  a key pair, that contains two keys:  the public key and the private key.
+
+ Enter inheritance.
+
+Two Helper Classes: IntPair and EncryptionSupport
+I will supply you with two support classes, as follows.
+
+Class IntPair
+This class consists of two integers bundled together for easy handling.  Examples of IntPair objects are (32, 195), (-983, 0) and (1000, 212078).  As you can see, there is a first integer and a second integer, which we'll call firstInt and secondInt. Everything is public and no filtering is involved, so that our classes can get to the data easily and quickly.  Details will be found in the text file to be downloaded, below.
+
+Class EncryptionSupport
+This class has no member data, only four static methods that will be used by our Communication class methods.  Since they are general enough, we encapsulate them in a separate class.  For example one of its methods, isPrime( long x), determines whether or not the passed parameter, x, is a prime number, a useful method for many other classes.  The methods of the class can be examined in the source, but they need not be fully absorbed or analyzed for the purpose of this assignment.  You can simply call them and expect that they do the right thing relative to the methods that you will write.
+
+Both classes and the imports for the assignment can be downloaded here:
+
+zipped RSA support files (链接到外部网站。)链接到外部网站。
+
+The Base Class: InternetUser
+Your base class is named InternetUser.
+
+Public Static Class Constants
+Define a full set of limits and defaults, like MAX_NAME_LENGTH, MIN_IP_LENGTH , and DEFAULT_IP for both min, max lengths and default data of each member.  names should be between 2 and 50 characters, and IP addresses between 7 and 15 characters.  The default name should reveal an undefined string, and the default IP address should be "0.0.0.0", also an indicator of an error or undefined address to the user.
+
+Private Member Data
+   String name;
+   String ip;
+Public Methods
+Default and 2-parameter constructors.
+Mutator and Accessor for each member.
+a toString() method that provides a nicely formatted return string for potential screen I/O.
+Private Methods
+private static validation helpers to filter client parameters.  These will support your public methods.  You should only test lengths here, since we don't really need to check the number of periods or size of each of the four ints in an IP address.  We'll let that slide for this assignment. (If you don't know what an IP address looks like, now's a good time to Google it. We're using IP4, not IP6, format.)
+Client Test of  Class InternetUser (first part of main())
+Instantiate two or more InternetUser objects, some using the default constructor and some using the parameter-taking constructor.  Mutate one or more of the members and, after that, use the toString() to assist a screen output so we can see what your objects contain.  Next, test one or more accessors.  Finally, call two or more mutators and constructors, providing both legal and illegal arguments and checking the return values (thus demonstrating that the mutators do the right thing).  Here is a sample run from my test (but you will have to imagine/deduce the source I used and create your own source for your testing, which will produce a different output).

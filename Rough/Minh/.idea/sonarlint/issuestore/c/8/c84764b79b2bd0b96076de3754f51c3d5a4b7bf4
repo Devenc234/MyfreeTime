@@ -1,0 +1,7 @@
+
+6squid:S1643"Use a StringBuilder instead.(ã®±ıÿÿÿÿ
+1squid:S1643"Use a StringBuilder instead.(¡ÙŸó
+Šsquid:S1319"pThe type of the "input" object should be an interface such as "List" rather than the implementation "ArrayList".(ÜÀô·ÿÿÿÿÿ
+6squid:S1643"Use a StringBuilder instead.(¶È¸ûûÿÿÿÿ
+Šsquid:S1319"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(×‡·‚ùÿÿÿÿ
+6squid:S1643"Use a StringBuilder instead.(ù‹¦íşÿÿÿÿ

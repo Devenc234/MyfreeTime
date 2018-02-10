@@ -1,0 +1,15 @@
+Gauss Elimination with pivoting and without scaling
+solution vector x=
+-3002399751580329.500000
+3002399751580333.500000
+-3002399751580332.500000
+
+Upper triangular matrix U=
+-3.000000 -1.000000 2.000000 
+0.000000 1.333333 1.333333 
+0.000000 0.000000 -0.000000 
+
+Permutation matrix P=
+0 1 0 
+0 0 1 
+1 0 0 

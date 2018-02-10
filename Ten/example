@@ -1,0 +1,19 @@
+For example, given an input file containing:
+
+It is by will alone I set my mind in motion.  
+It is by the juice of Sapho that thoughts acquire speed,  
+   the lips acquire stains, the stains become a warning.  
+It is by will alone I set my mind in motion.  
+      -- Mentat mantra from David Lynch’s Dune movie
+
+
+Your program must output
+
+ 1. It is by will alone I set my mind in motion. [11,44]  
+ 2. It is by the juice of Sapho that thoughts acquire speed, [11,56]  
+ 3.    the lips acquire stains, the stains become a warning. [9,56]  
+ 4. It is by will alone I set my mind in motion. [11,44]  
+ 5.       -- Mentat mantra from David Lynch’s Dune movie [8,52]  
+5 lines, 50 words, 252 characters  
+Line 5 has the fewest words with 8  
+Line 4 has the fewest characters with 44
